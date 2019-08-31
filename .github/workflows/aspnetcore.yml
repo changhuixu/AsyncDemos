@@ -13,8 +13,12 @@ jobs:
       uses: actions/setup-dotnet@v1
       with:
         dotnet-version: 2.2.108
-    - name: Build with dotnet
+    - name: Build AsyncDemos with dotnet
       run: 
       - dotnet build ./AsyncDemos/AsyncDemos.csproj --configuration Release
+    - name: Build ThreadDemos with dotnet
+      run: 
       - dotnet build ./ThreadDemos/ThreadDemos.csproj --configuration Release
+    - name: Build CustomAwaitable with dotnet
+      run: 
       - dotnet build ./CustomAwaitable/CustomAwaitable.csproj --configuration Release
