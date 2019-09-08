@@ -1,3 +1,3 @@
 # C# Async Demos
 
-![](https://github.com/changhuixu/AsyncDemos/workflows/Build%20with%20dotnet/badge.svg)
+![](https://github.com/changhuixu/AsyncDemos/workflows/ASP.NET%20Core%20CI/badge.svg)
